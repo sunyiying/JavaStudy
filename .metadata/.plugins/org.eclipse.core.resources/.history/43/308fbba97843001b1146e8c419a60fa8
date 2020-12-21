@@ -1,0 +1,12 @@
+package com.ssm.ioc_di;
+
+public class IOC {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		UserDao userDao=new UserDaoImpl();
+		userDao.login();
+	}
+
+}
